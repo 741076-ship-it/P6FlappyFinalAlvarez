@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bird : MonoBehaviour
+public class GameControl : MonoBehaviour
 {
+
+    public GameObject gameOverText;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +18,11 @@ public class bird : MonoBehaviour
     {
         
     }
+
+    public void BirdDied()
+    {
+
+    }
+
 }
+
